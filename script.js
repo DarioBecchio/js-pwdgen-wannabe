@@ -19,5 +19,6 @@ const fav_colour = prompt ('What\'s your favourite colour?');
 console.log(fav_colour);
 
 //Creazione password sommando le stringhe delle const precedenti
-const password = user_name + user_surname + fav_colour + 23
+const password = user_name + user_surname + fav_colour + "23"
 console.log(password);
+document.getElementById('password').innerHTML = password ;
